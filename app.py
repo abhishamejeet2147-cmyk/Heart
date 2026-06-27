@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model=joblib.load("Logistic_Regression-Copy1.pkl")
-scaler=joblib.load("scaler-Copy1.pkl")
-expected_columns=joblib.load("columns-Copy1.pkl")
+model=joblib.load("Logistic_Regression.pkl")
+scaler=joblib.load("scaler.pkl")
+expected_columns=joblib.load("columns.pkl")
 
 
 st.title("Heart strike prediction by Abhijeet❤️")
